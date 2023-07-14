@@ -13,6 +13,8 @@ let HiScoreBox = document.getElementById("hiscore");
 let snakeHead = document.querySelector(".head");
 let selectSpeed = document.getElementById("selectSpeed");
 
+window.scrollBy(0, 1000);
+
 // sound effects
 const move = new Audio('music/move.mp3')
 const eat = new Audio('music/eat.mp3')
