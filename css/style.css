@@ -163,6 +163,17 @@
   .food {
     border-radius: 4px;
   }
+  .controller  {
+    width: 100%;
+}
+  .controller .cantroller-btn {
+    width: 80%;
+    margin: auto;
+}
+.left,.right {
+  width: 62%;
+  margin: auto;
+}
 }
 
 @media only screen and (max-width: 400px) {
@@ -170,10 +181,7 @@
     margin-bottom: 10px;
   }
 
-  .controller .cantroller-btn {
-    width: 50px;
-    height: 50px;
-  }
+
   .score-container {
     padding: 20px;
   }
